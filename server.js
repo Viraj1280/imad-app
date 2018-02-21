@@ -49,13 +49,13 @@ var htmlTemplate = `
   <head> <title>${title}</title> </head>
   <body>
     <div>
-        ${date};
+        ${date}
     </div>
     <div>
-        ${heading};
+        ${heading}
     </div>
     <div>
-        ${content};
+        ${content}
     </div>
     
   </body>
@@ -75,10 +75,10 @@ app.get('/article-one', function (req, res) {
   res.send(createTemplate(articleOne));
 });
 app.get('/article-two', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
+  res.send(createTemplate(articleTwo));
 });
 app.get('/article-three', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'article-three.html'));
+  res.send(createTemplate(articleThree));
 });
 
 app.get('/ui/style.css', function (req, res) {
