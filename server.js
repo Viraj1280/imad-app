@@ -3,6 +3,16 @@ var morgan = require('morgan');
 var path = require('path');
 
 var app = express();
+
+var content = {
+    title : "Article One | Viraj ",
+    heading : "Article One" ,
+    date : "Sep 5 , 2018",
+    content : ` `
+    
+
+};
+
 app.use(morgan('combined'));
 
 app.get('/', function (req, res) {
