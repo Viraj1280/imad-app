@@ -4,7 +4,8 @@ var path = require('path');
 
 var app = express();
 
-var articleOne = {
+var articles = {
+  articleOne : {
     title : "Article One | Viraj ",
     heading : "Article One" ,
     date : "Sep 5 , 2018",
@@ -13,9 +14,8 @@ var articleOne = {
     <p>Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.</p>
     
     <p>Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.</p>`
-};
-
-var articleTwo = {
+},
+articleTwo : {
     title : "Article Two | Viraj ",
     heading : "Article Two" ,
     date : "Sep 5 , 2018",
@@ -24,9 +24,8 @@ var articleTwo = {
     <p>Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.</p>
     
     <p>Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.</p>`
-};
-
-var articleThree = {
+},
+articleThree : {
     title : "Article Three | Viraj ",
     heading : "Article Three" ,
     date : "Sep 5 , 2018",
@@ -35,7 +34,10 @@ var articleThree = {
     <p>Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.</p>
     
     <p>Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.</p>`
+}
+
 };
+
 
 function createTemplate(data) {
 
