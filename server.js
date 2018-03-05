@@ -50,10 +50,7 @@ var articles = {
 
 var pool = new Pool(config);
 
-app.get('/test-db',function(req,res){
-   //make a select Request and return a response 
-    
-});
+
 
 
 
