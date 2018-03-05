@@ -3,11 +3,11 @@ var morgan = require('morgan');
 var path = require('path');
 var pool = require('pg').Pool;
 
-var config ={
+var config = {
     user:'professionalvish',
     database:'professionalvish',
     host:'db.imad.hasura-app.io',
-    port:'5432',
+    port:'35.200.204.26',
     password:process.env.DB_PASSWORD
 };
 
@@ -48,7 +48,7 @@ var articles = {
 
 };
 
-
+var pool = new Pool(config);
 
 app.get('/test-db',function(req,res){
    //make a select Request and return a response 
