@@ -48,9 +48,6 @@ var articles = {
 
 };
 
-var pool = new Pool(config);
-
-
 
 
 
