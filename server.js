@@ -7,8 +7,8 @@ var config = {
     user:'professionalvish',
     database:'professionalvish',
     host:'db.imad.hasura-app.io',
-    port:'35.200.204.26',
-    password:process.env.DB_PASSWORD
+    port:'5432',
+    password:'db-professionalvish-57906'
 };
 
 
