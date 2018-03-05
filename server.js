@@ -5,7 +5,7 @@ var path = require('path');
 var app = express();
 
 var articles = {
-  articleOne : {
+  'articleOne' : {
     title : "Article One | Viraj ",
     heading : "Article One" ,
     date : "Sep 5 , 2018",
@@ -15,7 +15,7 @@ var articles = {
     
     <p>Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.</p>`
 },
-articleTwo : {
+'articleTwo' : {
     title : "Article Two | Viraj ",
     heading : "Article Two" ,
     date : "Sep 5 , 2018",
@@ -25,7 +25,7 @@ articleTwo : {
     
     <p>Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.Hey there this is a new try towards my course of modern application development.</p>`
 },
-articleThree : {
+'articleThree' : {
     title : "Article Three | Viraj ",
     heading : "Article Three" ,
     date : "Sep 5 , 2018",
